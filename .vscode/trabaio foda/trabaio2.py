@@ -1,0 +1,23 @@
+import pyautogui
+import time
+
+pyautogui.press('win')
+time.sleep(2)  
+pyautogui.write('microsoft edge ')
+time.sleep(2)
+pyautogui.press('enter')
+time.sleep(4)
+pyautogui.write("Netflix")
+pyautogui.press('enter')
+time.sleep(3)
+pyautogui.click(x=500, y=500)
+time.sleep(3)
+pyautogui.click(x=1565, y=127)      
+time.sleep(3)
+pyautogui.write("Sorriso Real")
+pyautogui.press('enter')
+time.sleep(3)
+pyautogui.click(x=181, y=302)
+time.sleep(3)
+pyautogui.click(x=553, y=644)  
+time.sleep(5)    
